@@ -1,0 +1,151 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color:cadetblue;
+    padding: 10px;
+
+}
+
+/* Header Styles */
+header h1 {
+    background-color:darkcyan;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px;
+    position:fixed;
+    overflow: hidden;
+    width: 40vw ;
+}
+
+header h2 {
+    background-color:darkcyan;
+    padding: 10px 0;
+    text-align: center;
+    border-left: 20px;
+    position:fixed;
+    overflow: hidden;
+    margin-left: 60vw;
+    color: black;
+}
+.headerbox{
+    background-color: darkblue;
+
+}
+
+p {
+    font-size: 3vw;
+}
+
+h1 {
+    font-size: 5vw;
+}
+
+h2 {
+    font-size: 5vw;
+}
+h3{
+    font-size: 4vw;
+}
+
+/* Navigation Styles */
+nav ul a{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 10vw;
+    box-shadow: 5px 5px 2px lightblue;
+}
+
+li a{
+    margin: 20px;
+    padding: double;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 25px;
+    
+}
+
+div:hover a{
+    background-color: rgb(131, 179, 237);
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background-color:darkcyan;
+    border-radius: 10px;
+    font: size 10vw;
+    
+}
+section#App {
+margin-top: 15vw;
+}
+
+.googlemap-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.googlemap-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    h1 {
+        font-size: 20vw;
+        line-height: 10vh;
+    }
+    
+    h2 {
+        font-size: 8vw;
+    }
+    p {
+        font-size: 5vw;
+    }
+}
+/* Image Styling */
+img {
+    max-width: 100%;   /* Makes sure the image does not exceed the container width */
+    height: auto;      /* Maintains the aspect ratio of the image */
+    display: block;    /* Removes extra space below the image */
+    margin: 10 ;    /* Centers the image horizontally */
+}
