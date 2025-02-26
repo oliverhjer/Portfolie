@@ -1,0 +1,14 @@
+.box{
+    font-size: 2rem;
+    background-color: antiquewhite;
+    /* Box Model */
+    display: grid;
+    width: 300px;
+    height: 100px;
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+    padding: 20px;
+    border: 3px black;
+}
