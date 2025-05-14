@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="boxmodel.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mig</title>
+    <title>Portfolie</title>
+    <link rel="stylesheet" href="styleapp.css">
 </head>
+<body>
 
-<body style="background-color:lightblue;">
-    <div class="box">
-        Oliver 2022y
-    </div>
+    <header>
+        <h1>Olivers Portfolie</h1>
+        <h2>2022y</h2>
+    </header>
 
-    <div class="yippee">Olivers hjemmeside</div>
-    <h2>hej jeg hedder oliver</h2>
-    
+    <nav>
+        <ul>
+            <li><a href="#">Forside</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
-    <img src="/billeder/hundmig.jpg" onmouseover="this.src='/billeder/aaaaaa.jpg'" onmouseleave="this.src='/billeder/hundmig.jpg'" width="30%">
+    <main>
+        <section class="hero">
+            <h2>Informatik Portfolie</h2>
+            <p>Her er alle emnerne og mine projekter fra 3.G informatik samlet</p>
+        </section>
 
+        <section class="content">
+            <h3>Om mig</h3>
+            <p>Jeg hedder Oliver og går på Rysensteen Gymnasium</p>
+            <br>
+            <p>Mashallah</p>
+        </section>
 
-    <p>
-       <a href="logbogapp.html">tryk her for logbog</a> 
-        
-    </p>
+        <section class="content">
+            <h3>Projekter</h3>
+            <p>Klik herunder for at se mine projekter.</p>
+            <a href="logbogapp.html" class="btn">Se Projekter</a>
+        </section>
 
-    <h2></h2>
-    <p>
-        Jeg går på Rysensteen Gymnasium i hovedstaden
-        <br>
-        herunder er en af mine klassekammerater fra 3y
-    </p>
+        <div class="googlemap-responsive">
+            <!-- Replace the src URL with your own map embed link -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1614.3193336472466!2d12.560664775628194!3d55.670108998358856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525372c28df9e7%3A0xb41a607a0c5db137!2sRysensteen%20High%20School!5e1!3m2!1sen!2sdk!4v1747157629373!5m2!1sen!2sdk" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </main>
 
-    <ol>
-        hulumhejhus
-    </> 
-<img src="/billeder/victor.jpg">
+    <footer>
+        <p>&copy; 2025 Olivers Portfolie. Yipee.</p>
+    </footer>
 
-</center>
 </body>
 </html>
